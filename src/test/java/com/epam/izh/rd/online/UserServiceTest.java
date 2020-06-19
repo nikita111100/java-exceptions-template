@@ -1,5 +1,4 @@
 package com.epam.izh.rd.online;
-
 import com.epam.izh.rd.online.entity.User;
 import com.epam.izh.rd.online.repository.IUserRepository;
 import com.epam.izh.rd.online.repository.UserRepository;
@@ -14,7 +13,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import static com.epam.izh.rd.online.Providers.getUserWithNumberPassword;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
 public class UserServiceTest {
 
     private IUserRepository userRepository;
